@@ -21,8 +21,8 @@ The BLSTM model with attention is inspired by [Huang et al.](https://arxiv.org/a
 
 Some differences are:
 1. All aspects (target) in this problem are of one word, so there is only column-wise softmax or common attention mechanism. The attention-over-attention mechanism in that paper is not applied here.
-2. A Lambda layer inputs all targets into the network at once for each sentence, which reduces training time and strengthens connections among all aspects.
-3. Post-attention sentence representations for all aspects are flattened to predict 40 classes together, which further strengthens connections among all aspects.
+2. A **Lambda layer** inputs all targets into the network at once for each sentence, which reduces training time and strengthens connections among all aspects.
+3. Post-attention sentence representations for all aspects are **flattened** to predict 40 classes together, which further strengthens connections among all aspects.
 4. Predicting section is not just a single fully connected layer, which enhances network's expressivity.
 5. ...
 
