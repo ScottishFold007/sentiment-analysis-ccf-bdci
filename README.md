@@ -43,3 +43,7 @@ Team nickname: ChickenDinner.
 #teams participated: 1701.
 
 We ensembled four or five models, and the one demonstrated here scores the highest (single model 0.676, 18th on the final public leaderboard) among them.
+
+## Others
+
+In case Github is sometimes not rendering jupyter notebook, try another online viewer [nbviewer](https://nbviewer.jupyter.org/).
