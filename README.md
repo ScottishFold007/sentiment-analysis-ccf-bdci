@@ -4,6 +4,8 @@ Classify car-related user comments on automobile forum to four sentiment polarit
 
 Evaluation metric is a slightly modified F1 score.
 
+See [model notebook](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb) for more detail.
+
 ## File description
 
 | Filename           | Description                         |
