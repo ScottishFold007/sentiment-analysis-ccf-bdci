@@ -10,8 +10,8 @@ See [model notebook](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/
 
 | Filename           | Description                         |
 | -                  | -                                   |
-| aspectSenti.ipynb  | BLSTM model with attention          |
-| getEmbedding.ipynb | Get word embedding                  |
+| [aspectSenti.ipynb](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb)  | BLSTM model with attention          |
+| [getEmbedding.ipynb](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/getEmbedding.ipynb) | Get word embedding                  |
 | train.csv          | Training data                       |
 | test_public.csv    | Sentences to predict for submission |
 
