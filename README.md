@@ -4,14 +4,14 @@ Classify car-related user comments on automobile forum to four sentiment polarit
 
 Evaluation metric is a slightly modified F1 score.
 
-See [model notebook](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb) for more detail.
+See [model notebook](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb) ([or nbviewer](https://nbviewer.jupyter.org/github/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb)) for more detail.
 
 ## File description
 
 | Filename           | Description                         |
 | -                  | -                                   |
-| [aspectSenti.ipynb](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb)  | BLSTM model with attention          |
-| [getEmbedding.ipynb](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/getEmbedding.ipynb) | Get word embedding                  |
+| [aspectSenti.ipynb](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb) ([or nbviewer](https://nbviewer.jupyter.org/github/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb))  | BLSTM model with attention          |
+| [getEmbedding.ipynb](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/getEmbedding.ipynb) ([or nbviewer](https://nbviewer.jupyter.org/github/idorce/sentiment-analysis-ccf-bdci/blob/master/getEmbedding.ipynb?short_path=77fb766)) | Get word embedding                  |
 | modelHuangEtAl.PNG | Model architecture of Huang et al.  |
 | train.csv          | Training data                       |
 | test_public.csv    | Sentences to predict for submission |
@@ -29,7 +29,7 @@ Some differences are:
 4. Predicting section is not just a single fully connected layer, which enhances network's expressivity.
 5. ...
 
-See [model notebook](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb) with architecture visialization for more detail.
+See [model notebook](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb) ([or nbviewer](https://nbviewer.jupyter.org/github/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb)) with architecture visialization for more detail.
 
 ## Ranking
 
