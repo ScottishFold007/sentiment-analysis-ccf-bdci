@@ -12,12 +12,15 @@ See [model notebook](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/
 | -                  | -                                   |
 | [aspectSenti.ipynb](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb)  | BLSTM model with attention          |
 | [getEmbedding.ipynb](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/getEmbedding.ipynb) | Get word embedding                  |
+| modelHuangEtAl.PNG | Model architecture of Huang et al.  |
 | train.csv          | Training data                       |
 | test_public.csv    | Sentences to predict for submission |
 
 ## Model description
 
-The BLSTM model with attention is inspired by [Huang et al.](https://arxiv.org/abs/1804.06536) but different from it.
+The BLSTM model with attention is inspired by [Huang et al.](https://arxiv.org/abs/1804.06536) (shown below) but different from it.
+
+![Model architecture of Huang et al.](./modelHuangEtAl.PNG)
 
 Some differences are:
 1. All aspects (target) in this problem are of one word, so there is only column-wise softmax or common attention mechanism. The attention-over-attention mechanism in that paper is not applied here.
