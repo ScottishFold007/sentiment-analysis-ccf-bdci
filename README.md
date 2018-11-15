@@ -35,10 +35,10 @@ See [model notebook](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/
 
 Team nickname: ChickenDinner.
 
-|           |Public Leaderboard|Private Leaderboard|
-|-          |- |- |
-|Preliminary|7 |20|
-|Final      |12|17|
+|2018      |     |Public Leaderboard|Private Leaderboard|
+|-       |-   |- |- |
+|08.28 -> 10.21 | Preliminary |7 |20|
+|10.26 -> 11.11 | Final      |12|17|
 
 #teams participated: 1701.
 
