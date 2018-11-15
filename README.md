@@ -46,4 +46,4 @@ We ensembled four or five models, and the one demonstrated here scores the highe
 
 ## Others
 
-In case Github is sometimes not rendering jupyter notebook, try another online viewer [nbviewer](https://nbviewer.jupyter.org/github/idorce/sentiment-analysis-ccf-bdci/tree/master/).
+In case Github is sometimes not rendering jupyter notebook, view on [nbviewer](https://nbviewer.jupyter.org/github/idorce/sentiment-analysis-ccf-bdci/tree/master/).
