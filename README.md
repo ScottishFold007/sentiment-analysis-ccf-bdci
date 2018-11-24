@@ -2,7 +2,7 @@
 
 Classify car-related user comments on automobile forum to four sentiment polarities for ten aspects.
 
-Evaluation metric is a slightly modified F1 score.
+[Evaluation metric](f1Evaluate.png) is a slightly modified F1 score.
 
 See [model notebook](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb) for more detail.
 
@@ -11,10 +11,11 @@ See [model notebook](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/
 | Filename           | Description                         |
 | -                  | -                                   |
 | [aspectSenti.ipynb](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb)  | BLSTM model with attention          |
+| f1Evaluate.png     | F1 score evaluation method for this task |
 | [getEmbedding.ipynb](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/getEmbedding.ipynb)  | Get word embedding                  |
 | modelHuangEtAl.PNG | Model architecture of Huang et al.  |
-| train.csv          | Training data                       |
 | test_public.csv    | Sentences to predict for submission |
+| train.csv          | Training data                       |
 
 ## Model description
 
