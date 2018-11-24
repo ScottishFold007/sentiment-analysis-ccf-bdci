@@ -2,7 +2,7 @@
 
 Classify car-related user comments on automobile forum to four sentiment polarities for ten aspects.
 
-[Evaluation metric](f1Evaluate.png) is a slightly modified F1 score.
+Evaluation metric is a slightly modified F1 score (See [issue #2](https://github.com/idorce/sentiment-analysis-ccf-bdci/issues/2)).
 
 See [model notebook](https://github.com/idorce/sentiment-analysis-ccf-bdci/blob/master/aspectSenti.ipynb) for more detail.
 
