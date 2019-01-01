@@ -19,7 +19,7 @@ Check [model notebook](https://github.com/idorce/sentiment-analysis-ccf-bdci/blo
 
 ## Model description
 
-The BLSTM model with attention is inspired by [Huang et al.](https://arxiv.org/abs/1804.06536) (shown below) but different from it.
+The BLSTM model with attention is inspired by [Huang et al.](https://arxiv.org/abs/1804.06536) (2018) but different from it.
 
 ![Model architecture of Huang et al.](./modelHuangEtAl.PNG)
 
